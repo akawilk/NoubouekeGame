@@ -1,4 +1,4 @@
-FROM mhart/mhart/alpine-node
+FROM mhart/alpine-node
 COPY . /app
 CMD node /app/app.js
-ENTRYPOINT 3000
+EXPOSE 3000
